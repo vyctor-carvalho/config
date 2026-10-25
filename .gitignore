@@ -1,0 +1,63 @@
+# Arquivos temporários e backups
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Sessão e estado do desktop
+session/
+gnome-initial-setup-done
+.gsd-keyboard.settings-ported
+monitors.xml
+GNOME-xdg-terminals.list
+ubuntu-xdg-terminals.list
+xdg-terminals.list
+
+# Diretórios de estado e integração do sistema
+dconf/
+goa-1.0/
+ibus/
+pulse/
+evolution/
+kactivitymanagerdrc
+kglobalshortcutsrc
+user-dirs.dirs
+user-dirs.locale
+update-notifier/
+
+# Aplicativos que geram configurações locais
+google-chrome/
+Code/
+JetBrains/
+Claude/
+configstore/
+easyeffects/
+enchant/
+eog/
+epy/
+gnome-session/
+jgit/
+libreoffice/
+nautilus/
+okularpartrc
+okularrc
+QtProject.conf
+
+# Configurações de aplicativos que não serão gerenciadas aqui
+lockscreen-wallpaper/
+neofetch/
+mimeapps.list
+
+# Zsh completion cache
+zsh/.zcompdump*
+
+.ptftp
+# Diretórios gerenciados separadamente ou ainda não selecionados
+# Descomente somente se não quiser versioná-los:
+# gtk-3.0/
+# gtk-4.0/
+# i3/
+# tiling-assistant/
+# monitors.xml

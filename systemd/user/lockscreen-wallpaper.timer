@@ -1,0 +1,10 @@
+[Unit]
+Description=Verificar horários de wallpaper da tela de bloqueio
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+AccuracySec=1s
+Unit=lockscreen-wallpaper.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,44 @@
+# Janela
+window-decoration = none
+
+# Fundo
+background = #000000
+background-opacity = 0.82
+
+# Texto
+foreground = #00FF66
+cursor-color = #00FF66
+
+# Seleção
+selection-background = #005522
+selection-foreground = #00FF66
+
+# Cores ANSI
+palette = 0=#000000
+palette = 1=#FF3333
+palette = 2=#00FF66
+palette = 3=#FFFF33
+palette = 4=#3366FF
+palette = 5=#FF33FF
+palette = 6=#33FFFF
+palette = 7=#FFFFFF
+
+# Cores brilhantes
+palette = 8=#555555
+palette = 9=#FF5555
+palette = 10=#00FF66
+palette = 11=#FFFF55
+palette = 12=#5588FF
+palette = 13=#FF55FF
+palette = 14=#55FFFF
+palette = 15=#FFFFFF
+
+# Bold usa as cores brilhantes
+bold-color = bright
+
+# Imagem de fundo
+background-image = /home/vyctor-carvalho/Imagens/wallpapers/sunset-ronin-ghost-of-tsushima-40-3440x1440.jpeg
+background-image-opacity = 0.10
+background-image-position = center
+background-image-fit = cover
+background-image-repeat = false

@@ -1,0 +1,6 @@
+[Unit]
+Description=Agendador de wallpaper da tela de bloqueio
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/lockscreen-wallpaper-check
