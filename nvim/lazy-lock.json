@@ -5,7 +5,7 @@
   "bufferline.nvim": { "branch": "main", "commit": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3" },
   "catppuccin": { "branch": "main", "commit": "edefef779ab08ce1a4a404713e3012b0d202bd35" },
   "conform.nvim": { "branch": "master", "commit": "016802de402556da54c36bd7359b441266b01cdd" },
-  "cyberdream.nvim": { "branch": "main", "commit": "2dbd7e944014cf880eb824c1026337bdab1f8d69" },
+  "cyberdream.nvim": { "branch": "main", "commit": "c75105a726e105f41e8af5e29cd6baed11f4018e" },
   "flash.nvim": { "branch": "main", "commit": "5f0f270fdc7c5b0c21d903ee85b9cb06f2ac636a" },
   "friendly-snippets": { "branch": "main", "commit": "b2ea5c41a150ba72fb656eedb4ed0a86d138d945" },
   "fzf-lua": { "branch": "main", "commit": "5b88d6f0af7fcb41d4a8bb340bf70d7e3824ee9d" },
