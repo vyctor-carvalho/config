@@ -52,6 +52,7 @@ mimeapps.list
 
 # Zsh completion cache
 zsh/.zcompdump*
+zhs/.zsh_history
 
 .ptftp
 # Diretórios gerenciados separadamente ou ainda não selecionados

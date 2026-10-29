@@ -1,0 +1,14 @@
+[opener]
+edit = [
+    { run = 'nvim "$@"', block = true, desc = "Neovim" },
+]
+
+open = [
+    { run = 'xdg-open "$1"', desc = "Abrir com aplicativo padrão", orphan = true },
+]
+
+[open]
+prepend_rules = [
+    { mime = "text/*", use = "edit" },
+    { mime = "image/*", use = "open" },
+]

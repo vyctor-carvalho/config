@@ -3,7 +3,8 @@ window-decoration = none
 
 # Fundo
 background = #000000
-background-opacity = 0.82
+background-opacity = 0.80
+# background-blur = macos-glass-regular
 
 # Texto
 foreground = #00FF66
@@ -36,9 +37,15 @@ palette = 15=#FFFFFF
 # Bold usa as cores brilhantes
 bold-color = bright
 
+# bordas internas
+window-padding-x = 0
+window-padding-y = 0
+# window-padding-balance = true
+window-padding-color = extend
+
 # Imagem de fundo
-background-image = /home/vyctor-carvalho/Imagens/wallpapers/sunset-ronin-ghost-of-tsushima-40-3440x1440.jpeg
-background-image-opacity = 0.10
+#background-image = /home/vyctor-carvalho/Imagens/wallpapers/sunset-ronin-ghost-of-tsushima-40-3440x1440.jpeg
+#background-image-opacity = 0.10
 background-image-position = center
 background-image-fit = cover
 background-image-repeat = false

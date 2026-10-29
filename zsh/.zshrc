@@ -138,6 +138,8 @@ alias kubectl="minikube kubectl --"
 
 alias tmux-nes-att='env -u TMUX tmux -L nested attach -t'
 
+alias nv='nvim'
+
 alias rmrf="rm -rf -i"
 
 echocp() {

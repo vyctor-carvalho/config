@@ -1,35 +1,23 @@
+local themes = require("themes")
+
 return {
-  {
-    "folke/tokyonight.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {
-      style = "night",
-
-      on_colors = function(c)
-        c.bg = "#050505"
-        c.bg_dark = "#000000"
-        c.bg_float = "#0A0A0A"
-        c.bg_sidebar = "#050505"
-
-        c.green = "#39FF14"
-        c.cyan = "#00D7FF"
-        c.fg = "#D8FFE0"
-        c.comment = "#3E7A3A"
-        c.border = "#1C7C1C"
-      end,
-    },
-  },
-
   {
     "rebelot/kanagawa.nvim",
     lazy = false,
     priority = 1000,
-    opts = {
-      theme = "wave",
-      transparent = false,
-      terminalColors = true,
-    },
+    transparent = false,
+  },
+
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    transparent = false,
+    priority = 1000,
+
+    config = function()
+      themes.setup()
+      themes.apply("tokyonight", "sakura")
+    end,
   },
 
   {
@@ -50,9 +38,22 @@ return {
   },
 
   {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      variant = "default",
+      transparent = false,
+      saturation = 1,
+      italic_comments = false,
+      terminal_colors = true,
+    },
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "cyberdream",
     },
   },
 }
